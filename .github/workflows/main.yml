@@ -1,28 +1,18 @@
 # Github Actions do Site de perfil profissional.
 
-name: Node.js CI
+
+name: Gatsby Publish
 
 on:
   push:
-    branches: [ dev ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - dev
 
 jobs:
   build:
-
-    runs-on: ubuntu-18.04
-
-    strategy:
-      matrix:
-        node-version: [10.x, 12.x, 14.x]
-
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+      - uses: actions/checkout@v2
+      - uses: enriikke/gatsby-gh-pages-action@v2
+        with:
+          access-token: ${{ secrets.DACIOLIMA_GATSBY_BLOG }}
