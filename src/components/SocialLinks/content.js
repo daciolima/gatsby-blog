@@ -1,17 +1,17 @@
-const handle = 'daciolima'
 
-const link = [
+
+const links = [
     {
         label: "Github",
-        url: `https://github.com/${handle}`
+        url: "https://github.com/daciolima",
     },
     {
         label: "Linkedin",
-        url: `https://www.linkedin.com/in/${handle}/`
+        url: "https://www.linkedin.com/in/daciolima",
     },
     {
         label: "Instagram",
-        url: 'https://www.instagram.com/daciolimamusic'
+        url: "https://www.instagram.com/daciolimamusic",
     },
 
 ]
