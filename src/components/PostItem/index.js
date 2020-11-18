@@ -33,3 +33,4 @@ PostItem.prototype = {
 }
 
 export default PostItem
+

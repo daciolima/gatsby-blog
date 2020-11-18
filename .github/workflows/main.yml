@@ -1,7 +1,7 @@
 # Github Actions do Site de perfil profissional.
 
 
-name: Gatsby Publish
+name: Gatsby-Blog
 
 on:
   push:
