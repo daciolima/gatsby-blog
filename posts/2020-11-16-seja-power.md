@@ -1,5 +1,5 @@
 --- 
-date: 2020-11-17 05:50:43
+date: 2020-11-16 05:50:43
 title: Seja Power
 description: Aprenda macetes como programar melhor
 category: python
