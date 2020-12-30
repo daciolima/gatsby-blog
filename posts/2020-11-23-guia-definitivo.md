@@ -1,7 +1,7 @@
 --- 
-date: 2020-11-16 05:50:43
-title: Seja Power
-description: Aprenda macetes como programar melhor
+date: 2020-11-23 05:50:43
+title: Guia Definitivo
+description: Descubra o caminho no guia definitivo
 category: python
 background: "#7AAB13" 
 ---
@@ -35,3 +35,5 @@ test.. test... test..... test?..... test!....
 !!!!!! ???? ,,  -- ---
 
 "Smartypants, double quotes" and 'single quotes'
+
+![Computador](/assets/img/computer.jpg)

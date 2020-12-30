@@ -1,7 +1,7 @@
 --- 
-date: 2020-11-17 05:50:43
-title: Guia Pythonico
-description: Descubra o caminho das pedras do Python
+date: 2020-11-16 05:50:43
+title: Seja O melhor
+description: Procure ser o melhor
 category: python
 background: "#7AAB13" 
 ---
@@ -35,4 +35,3 @@ test.. test... test..... test?..... test!....
 !!!!!! ???? ,,  -- ---
 
 "Smartypants, double quotes" and 'single quotes'
-![Computador](/assets/img/computer2.png)
