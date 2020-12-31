@@ -1,4 +1,3 @@
-
 import styled from "styled-components"
 
 export const SocialLinksWrapper = styled.nav`
@@ -16,16 +15,16 @@ export const SocialLinksList = styled.ul`
 export const SocialLinksItem = styled.li``
 
 export const SocialLinksLink = styled.a`
-  color: #8899A6;
+  color: var(--texts);
   text-decoration: none;
   transition: color 0.5s;
   &:hover {
-    color: #1FA1F2;
+    color: var(--highlight);
   }
 `
 
 export const IconWrapper = styled.div`
-  fill: #BBB;
+  fill: #bbb;
   width: 30px;
   height: 30px;
 `

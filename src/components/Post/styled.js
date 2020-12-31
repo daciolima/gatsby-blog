@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const PostHeader = styled.header`
-  color: #FFF;
+  color: var(--postColor);
   margin: auto;
   max-width: 70rem;
   padding: 5rem 5rem 0;
@@ -18,16 +18,13 @@ export const PostDescription = styled.h2`
   font-size: 2rem;
   font-weight: 200;
   padding: 0 1.4rem;
-  color: #FFF;
-
-  
+  color: var(--postColor);
 `
 
 export const PostDate = styled.p`
   font-size: 1.1rem;
   font-weight: 100;
   padding: 0 1.4rem;
-  
 `
 
 export const MainContent = styled.section`
@@ -44,13 +41,12 @@ export const MainContent = styled.section`
   .tags,
   iframe,
   .button-post {
-    color: #FFF;
+    color: var(--postColor);
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.7;
     letter-spacing: 0.069rem;
     padding: 0 1.4rem;
-
   }
 
   p {
@@ -95,19 +91,17 @@ export const MainContent = styled.section`
   iframe {
     padding: 0 1.6rem 1.6rem;
     width: 100%;
-
-  
   }
 
   blockquote {
-    color: #FFF;
-    border-left: 0.3rem solid #1fa1f2;
+    color: var(--postColor);
+    border-left: 0.3rem solid var(--highlight);
     padding: 0 1.875rem;
     margin: 3.125rem auto;
   }
 
   hr {
-    border: 1px solid #38444d;
+    border: 1px solid var(--borders);
     margin: 3rem auto;
   }
 
@@ -129,20 +123,14 @@ export const MainContent = styled.section`
 
   h1 {
     font-size: 2.8rem;
-
-
   }
 
   h2 {
     font-size: 2.1rem;
-
-
   }
 
   h3 {
     font-size: 1.6rem;
-
-   
   }
 
   h4 {
@@ -178,7 +166,6 @@ export const MainContent = styled.section`
 
   .gatsby-highlight {
     padding: 0 1.6rem 1.6rem;
-
   }
 
   .instagram-media {
@@ -186,13 +173,13 @@ export const MainContent = styled.section`
   }
 
   a {
-    border-bottom: 1px dashed #1fa1f2;
-    color: #1fa1f2;
+    border-bottom: 1px dashed var(--highlight);
+    color: var(--highlight);
     text-decoration: none;
     transition: opacity 0.5s;
 
     svg {
-      color: #FFF;
+      color: var(--postColor);
     }
 
     &:hover {
