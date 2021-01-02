@@ -7,6 +7,8 @@ import { Flashlight as Light } from "@styled-icons/ionicons-outline/Flashlight"
 import { Grid } from "@styled-icons/boxicons-regular/Grid"
 import { ThList as List } from "@styled-icons/typicons/ThList"
 
+import getThemeColor from "../../utils/getThemeColor"
+
 import * as STYLE from "./styled"
 
 const MenuBar = () => {
@@ -27,12 +29,26 @@ const MenuBar = () => {
   return (
     <STYLE.MenuBarWrapper>
       <STYLE.MenuBarGroup>
-        <STYLE.MenuBarLink to="/" title="Voltar a home">
+        <STYLE.MenuBarLink
+          cover
+          direction="right"
+          bg={getThemeColor()}
+          duration={0.6}
+          to="/"
+          title="Voltar a home"
+        >
           <STYLE.MenuBarItem>
             <Home />
           </STYLE.MenuBarItem>
         </STYLE.MenuBarLink>
-        <STYLE.MenuBarLink to="/search/" title="Pesquisar">
+        <STYLE.MenuBarLink
+          cover
+          direction="left"
+          bg="#16202c"
+          duration={0.6}
+          to="/search/"
+          title="Pesquisar"
+        >
           <STYLE.MenuBarItem>
             <Search />
           </STYLE.MenuBarItem>

@@ -21,6 +21,9 @@ function SEO({ description, lang, meta, title }) {
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
+  // const url = site.siteMetadata.siteUrl
+  // const ogImage = `${url}${image || "assets/img/cover.png"}`
+
   return (
     <Helmet
       htmlAttributes={{
@@ -41,6 +44,10 @@ function SEO({ description, lang, meta, title }) {
           property: `og:description`,
           content: metaDescription,
         },
+        // {
+        //   property: `og:image`,
+        //   content: ogImage,
+        // },
         {
           property: `og:type`,
           content: `website`,
@@ -49,6 +56,14 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:card`,
           content: `summary`,
         },
+        // {
+        //   name: `twitter:card`,
+        //   content: `summary_large_image`,
+        // },
+        // {
+        //   name: `twitter:image.src`,
+        //   content: ogImage,
+        // },
         {
           name: `twitter:creator`,
           content: site.siteMetadata?.author || ``,

@@ -3,7 +3,7 @@ date: 2020-11-23 05:50:43
 title: Guia Definitivo
 description: Descubra o caminho no guia definitivo
 category: python
-background: "#7AAB13" 
+background: "#7AAB13"
 ---
 
 
