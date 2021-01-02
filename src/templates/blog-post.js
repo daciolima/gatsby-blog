@@ -16,7 +16,11 @@ const BlogPost = ({ data, pageContext }) => {
   return (
     // Fragment   <> </>
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <SEO
+        title={post.frontmatter.title}
+        // description={post.frontmatter.description}
+        // image={post.frontmatter.image}
+      />
       <STYLE.PostHeader>
         <STYLE.PostDate>
           {post.frontmatter.date} - {post.timeToRead} min de leitura

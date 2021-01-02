@@ -21,8 +21,8 @@ function SEO({ description, lang, meta, title }) {
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
-  // const url = site.siteMetadata.siteUrl
-  // const ogImage = `${url}${image || "assets/img/cover.png"}`
+  //const url = site.siteMetadata.siteUrl
+  //const ogImage = `${url}${image || "assets/img/cover.png"}`
 
   return (
     <Helmet
@@ -61,7 +61,7 @@ function SEO({ description, lang, meta, title }) {
         //   content: `summary_large_image`,
         // },
         // {
-        //   name: `twitter:image.src`,
+        //   name: `twitter:image:src`,
         //   content: ogImage,
         // },
         {
