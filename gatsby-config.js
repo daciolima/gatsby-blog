@@ -61,13 +61,13 @@ module.exports = {
         path: `${__dirname}/posts`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `filespdf`,
-        path: `${__dirname}/filespdf`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `filespdf`,
+    //     path: `${__dirname}/filespdf`,
+    //   },
+    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
