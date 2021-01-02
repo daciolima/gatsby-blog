@@ -65,7 +65,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `filespdf`,
-        path: `${__dirname}/src/pdf`,
+        path: `${__dirname}/filespdf`,
       },
     },
     `gatsby-transformer-sharp`,
