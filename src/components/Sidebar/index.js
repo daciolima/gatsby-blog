@@ -1,10 +1,9 @@
 import React from "react"
-import ProfileComponent from "../Profile"
-import SocialLinks from "../SocialLinks"
-import MenuLinks from "../MenuLinks"
+import ProfileComponent from "../profile"
+import SocialLinks from "../socialLinks"
+import MenuLinks from "../menuLinks"
 
 import * as STYLE from "./styled"
-
 
 const Sidebar = () => (
   <STYLE.SidebarWrapper>
