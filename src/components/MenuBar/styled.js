@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import AniLink from "gatsby-plugin-transition-link/anilink"
+import AniLink from "gatsby-plugin-transition-link/Anilink"
 
 import media from "styled-media-query"
 
