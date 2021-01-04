@@ -2,7 +2,7 @@ backend:
   name: github
   repo: daciolima/gatsby-blog
   branch: netlify
-  site_domain: gatsby-blog.netlify.com
+  site_domain: blog-dacio.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"

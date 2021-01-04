@@ -8,7 +8,7 @@ module.exports = {
     position: `Backend Developer`,
     description: `Blog sobre perfil profissional e assuntos sobre desenvolvimento.`,
     author: `@daciolimaDEV`,
-    siteUrl: `https://daciolima.dev.br`,
+    siteUrl: `https://blog-dacio.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
