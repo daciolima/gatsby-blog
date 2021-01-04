@@ -1,7 +1,7 @@
 import React from "react"
 
 import Icons from "./Icons"
-import links from "./content"
+import links from "./Content"
 
 import * as STYLE from "./styled"
 
