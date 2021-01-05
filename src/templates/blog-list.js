@@ -23,14 +23,18 @@ const BlogList = props => {
 
       <STYLE.ListWrapper>
         {postList.map(
-          ({
-            node: {
-              frontmatter: { background, category, date, description, title },
-              timeToRead,
-              fields: { slug },
+          (
+            {
+              node: {
+                frontmatter: { background, category, date, description, title },
+                timeToRead,
+                fields: { slug },
+              },
             },
-          }) => (
+            i
+          ) => (
             <PostItem
+              key={i}
               slug={slug}
               background={background}
               category={category}

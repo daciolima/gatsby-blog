@@ -4,6 +4,7 @@ title: Guia Pythonico
 description: Descubra o caminho das pedras do Python
 category: python
 background: "#7AAB13" 
+image: "/assets/img/computer2.png"
 ---
 
 

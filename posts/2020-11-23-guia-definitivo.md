@@ -4,6 +4,7 @@ title: Guia Definitivo
 description: Descubra o caminho no guia definitivo
 category: python
 background: "#7AAB13"
+image: "/assets/img/computer.jpg"
 ---
 
 

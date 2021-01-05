@@ -22,6 +22,20 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
+// Tratando o campo image para não retornar null
+exports.sourceNodes = ({ actions, schema }) => {
+  const { createTypes } = actions
+
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      image: String
+    }
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }
+  `)
+}
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
@@ -39,6 +53,7 @@ exports.createPages = ({ graphql, actions }) => {
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
               description
               title
+              image
             }
             timeToRead
           }
