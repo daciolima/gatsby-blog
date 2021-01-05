@@ -5,7 +5,7 @@ import { DiscussionEmbed } from "disqus-react"
 import * as STYLE from "./styled"
 
 const Comments = ({ url, image }) => {
-  const completeURL = `https://blog-dacio.netlify.app${url}`
+  const completeURL = `https://blog-dacio.netlify.app/${url}`
   const imageUrl = image
   return (
     <STYLE.CommentsWrapper>
