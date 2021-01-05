@@ -4,6 +4,7 @@ title: Seja O melhor
 description: Procure ser o melhor
 category: python
 background: "#7AAB13" 
+image: "/assets/img/computer2.png"
 ---
 
 

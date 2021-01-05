@@ -4,6 +4,7 @@ title: Seja Power
 description: Aprenda macetes como programar melhor
 category: python
 background: "#7AAB13" 
+image: "/assets/img/computer2.png"
 ---
 
 
