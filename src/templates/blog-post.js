@@ -12,6 +12,7 @@ const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark
   const next = pageContext.nextPost
   const previous = pageContext.previousPost
+  const url = pageContext.slug
 
   return (
     // Fragment   <> </>
@@ -34,7 +35,7 @@ const BlogPost = ({ data, pageContext }) => {
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
       </STYLE.MainContent>
       <RecommendedPost next={next} previous={previous} />
-      <Comments url={post.fields.slug} title={post.frontmatter.title} />
+      <Comments url={url} image={post.frontmatter.image} />
     </Layout>
   )
 }

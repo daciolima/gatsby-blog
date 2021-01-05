@@ -1,20 +1,22 @@
 import React from "react"
 import PropTypes from "prop-types"
-import ReactDisqusComments from "react-disqus-comments"
+import { DiscussionEmbed } from "disqus-react"
 
 import * as STYLE from "./styled"
 
-const Comments = ({ url, title }) => {
+const Comments = ({ url, image }) => {
   const completeURL = `https://blog-dacio.netlify.app${url}`
-
+  const imageUrl = image
   return (
     <STYLE.CommentsWrapper>
       <STYLE.CommentsTitle>Comentários</STYLE.CommentsTitle>
-      <ReactDisqusComments
-        shortname="disqus_sYOityJnF5"
-        identifier={completeURL}
-        title={title}
-        url={completeURL}
+      <DiscussionEmbed
+        shortname="https-blog-dacio-netlify-app"
+        config={{
+          url: completeURL,
+          image: imageUrl,
+          language: "pt_BR",
+        }}
       />
     </STYLE.CommentsWrapper>
   )
